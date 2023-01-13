@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 read -p "Introdueix el nom del mes: " mes
 
 if grep -q $mes usuarios.txt; then
